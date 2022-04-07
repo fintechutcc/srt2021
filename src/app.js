@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 const EthCrypto = require("eth-crypto");
 const signerIdentity = EthCrypto.createIdentity();
 const privateKey = signerIdentity.privateKey;
